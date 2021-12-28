@@ -1,0 +1,56 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #252F40;
+}
+
+.box {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.logo {
+    border-radius: 8px;
+    background-color: #cb0c9f;
+}
+
+.logo2 {
+    border-radius: 8px;
+    background-color: white;
+}
+
+.nav {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.nav2 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.content {
+    color: #67748E;
+}
+
+.footer {
+    color: #67748E;
+}
+
+.return {
+    color: #67748E;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.value {
+    font-weight: 500;
+    color: #82D616;
+}
+
+.show-month,
+.show-year {
+    display: none;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/style/style.css">
+
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row mt-5">
+            <div class="col-3">
+                <a href="index.html" class="text-decoration-none" style="color: #67748E;">
+                    <div class="p-3 mb-3">
+                        <div class="row">
+                            <div class="col-3 text-center">
+                                <div class="logo2 shadow-sm p-2">
+                                    <img src="./assets/img/home2.png" alt="home" width="20">
+                                </div>
+                            </div>
+                            <div class="col-9 d-flex align-items-center">
+                                <div class="nav2">
+                                    <p class="m-0">Home</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="monthly.html" class="text-decoration-none" style="color: #67748E;">
+                    <div class="p-3 mb-3">
+                        <div class="row">
+                            <div class="col-3 text-center">
+                                <div class="logo2 shadow-sm p-2">
+                                    <img src="./assets/img/monthly.png" alt="home" width="20">
+                                </div>
+                            </div>
+                            <div class="col-9 d-flex align-items-center">
+                                <div class="nav2">
+                                    <p class="m-0">Monthly</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="annually.html" class="text-decoration-none" style="color: #252F40;">
+                    <div class="box shadow-sm p-3">
+                        <div class="row">
+                            <div class="col-3 text-center">
+                                <div class="logo shadow-sm p-2">
+                                    <img src="./assets/img/annually2.png" alt="home" width="20">
+                                </div>
+                            </div>
+                            <div class="col-9 d-flex align-items-center">
+                                <div class="nav">
+                                    <p class="m-0">Annually</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-9">
+                <h3>Annually</h3>
+                <div class="row">
+                    <div class="col-7">
+                        <div class="box shadow p-3 mb-5 mt-3">
+                            <h4>Calculator</h4>
+                            <hr>
+                            <div class="mb-3">
+                                <label for="balance-year" class="form-label">Balance (USDT)</label>
+                                <input type="number" name="balance-year" id="balance-year" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="return-year" class="form-label">Return (Annually)</label>
+                                <input type="number" name="return-year" id="return-year" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="long-year" class="form-label">Long (Year)</label>
+                                <input type="number" name="long-year" id="long-year" class="form-control">
+                            </div>
+                            <div class="mb-3 text-center">
+                                <button id="annually" type="button" class="btn btn-primary">Count</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="box shadow p-3 mb-5 mt-3">
+                            <h4>Result</h4>
+                            <hr>
+                            <div class="mb-3 show-year">
+                                <label class="form-label">Total (Return Investment)</label>
+                                <p id="total-year"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="footer text-center">
+                        <p class="m-0">&copy; 2021 by Muhammad Abdiel Firjatullah | All Right Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./assets/script/script2.js"></script>
+</body>
+
+</html>
